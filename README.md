@@ -1,28 +1,22 @@
-# Project Title
+# HW 4.3 — Quarto Data Analysis
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repo has everything for my HW 4.3 submission for STAT 184. It's a data analysis document built using Quarto and R.
 
 ## Overview
-
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
-
-### Interesting Insight (Optional)
-
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+For this assignment I looked at three different things. First I compared passenger traffic across six major airports from 2020 to 2025. Then I used Monte Carlo simulation to estimate the area under a normal curve. Finally I worked with a bone density dataset and used Claude to help me write R code to clean and visualize it. The whole thing is written in Quarto so the code, output, and writing are all in one place.
 
 ## Data Sources and Acknowledgements
-
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+ Airport data came from Wikipedia's List of Busiest Airports by Passenger Traffic page
+ The calcium.csv dataset was provided by our course instructor
 
 ## Current Plan
-
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+Right now the repo has my QMD file, the PDF I submitted, and the dataset I used. I'm planning to add a plan document soon that covers both my analysis approach and how I managed this repo.
 
 ## Repo Structure
-
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
-
+- `hw4_3_anish_chitnis.qmd` — the main Quarto file with all my analysis
+- `HW 4.3.pdf` — the rendered PDF I submitted
+- `calcium.csv` — the dataset used in the GenAI section
+- `README.md` — this file 
 
 ## Authors
-
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Anish Chitnis 
